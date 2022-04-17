@@ -109,4 +109,8 @@
     border-radius: 10px;
     bottom: 81%;
   }
+  .image {
+    width: 70%;
+    height: 70%;
+  }
 }
