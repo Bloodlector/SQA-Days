@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.blue {
+  background: url("/blue-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.green {
+  background: url("/green-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.orange {
+  background: url("/orange-BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.white-box {
+  background: url("/Rectangle\ 1.jpg");
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+}
+.header-wrap {
+  margin: auto;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box-label {
+  background: url("/Rectangle\ 2.png");
+  position: absolute;
+  width: 20vw;
+  height: 10vh;
+  background: #ffffff;
+  border-radius: 30px;
+  bottom: -14px;
+  margin-top: 50px;
+}
+.question {
+  color: black;
+  font-size: 20px;
+  word-wrap: normal;
+  padding: 10px;
+  text-align: center;
+}
+.logo-blue {
+  background: url("/Заставка\ 5\ 2.png");
+  width: 40vw;
+  height: 20vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+.logo-green {
+  background: url("/Заставка\ 7\ 3.png");
+  width: 40vw;
+  height: 20vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+}
+.logo-orange {
+  background: url("/Заставка\ 6\ 3.png");
+  width: 40vw;
+  height: 20vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+
+}
+.image {
+  width: 30vw;
+  height: 50vh;
+}
+@media (max-width: 750px) {
+  .wrapper {
+    width: 345px;
+  }
+  .white-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+  }
+  .box-label {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    bottom: 81%;
+  }
+}
