@@ -80,8 +80,8 @@
   height: 20vh;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20vh;
-  margin-bottom: 5vh;
+  margin-top: 1vh;
+  /* margin-bottom: 5vh; */
 }
 .logo-green {
   background: url("/Заставка\ 7\ 3.png");
@@ -89,8 +89,8 @@
   height: 20vh;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20vh;
-  margin-bottom: 5vh;
+  margin-top: 1vh;
+  /* margin-bottom: 5vh; */
 }
 .logo-orange {
   background: url("/Заставка\ 6\ 3.png");
@@ -127,7 +127,7 @@
     bottom: 81%;
   }
   .image {
-    width: 70%;
-    height: 70%;
+    width: 90%;
+    height: 90%;
   }
 }
