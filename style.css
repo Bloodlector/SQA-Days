@@ -98,8 +98,8 @@
   height: 20vh;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 10vh;
-  margin-bottom: 5vh;
+  margin-top: 1vh;
+  /* margin-bottom: 5vh; */
   /* padding-bottom: 10vh; */
 }
 .image {
@@ -111,13 +111,13 @@
     width: 345px;
   }
   .white-box {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
   }
   .white-box2 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50px;
   }
   .box-label {
