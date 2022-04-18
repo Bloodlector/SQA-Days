@@ -36,6 +36,18 @@
   background: rgba(255, 255, 255, 0.5);
   border-radius: 100px;
 }
+.white-box2 {
+  background: url("/Rectangle\ 1.jpg");
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  /* background: rgba(255, 255, 255, 0.5); */
+  border-radius: 100px;
+}
 .header-wrap {
   margin: auto;
   align-self: center;
@@ -86,9 +98,9 @@
   height: 20vh;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 20vh;
+  margin-top: 10vh;
   margin-bottom: 5vh;
-
+  /* padding-bottom: 10vh; */
 }
 .image {
   width: 50%;
